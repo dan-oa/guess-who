@@ -1,3 +1,10 @@
+.header {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background-color: #f0efec;
 }
@@ -8,4 +15,8 @@ body {
 
 span {
     color: black;
+}
+
+img {
+    width: 100%;
 }
