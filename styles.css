@@ -12,6 +12,8 @@
     row-gap: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
 }
 
 body {
@@ -35,6 +37,11 @@ img {
 }
 
 .mystery-card {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mystery-card-image {
     padding: 10px;
     background-color: white;
     border-radius: 100%;
@@ -53,4 +60,8 @@ img {
     border-width: 4px;
     border-color: white;
     padding: 20px;
+}
+
+h2 {
+    text-align: center;
 }
