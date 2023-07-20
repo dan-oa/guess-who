@@ -28,6 +28,12 @@ img {
     width: 100%;
 }
 
+.mystery-card {
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
 .wrap {
     width: 900px;
     margin-top: 40px;
