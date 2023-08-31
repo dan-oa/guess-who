@@ -65,6 +65,15 @@ let cards = [
         image: 'images/characters_20.jpg'
     }
 ]
+function populateCards() {
+    let cardsElement = document.querySelector('.cards')
+    for (let i = 0; i < cards.length; i++) {
+        let cardImg = cards[i].image
+        let cardName = cards[i].name
+        cardsElement.innerHTML = cardsElement.innerHTML + "<div class='card' onclick='toggleEliminated(this)'><img src=" + cardImg + "><span>" + cardName + "</span></div>"
+    }
+}
+populateCards()
 function selectRandomCard() {
     let randomNum = Math.round(Math.random() * 19)
     let mysteryCardImage = document.querySelector('.mystery-card-image')

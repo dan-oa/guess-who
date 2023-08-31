@@ -3,19 +3,15 @@ body {
     font-family: verdana;
     font-size: 15px;
 }
-
 h2 {
     text-align: center;
 }
-
 span {
     color: black;
 }
-
 img {
     width: 100%;
 }
-
 .wrap {
     width: 900px;
     margin-top: 40px;
@@ -23,25 +19,21 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
 .header {
     display: grid;
     grid-template-columns: 160px 160px;
     justify-content: center;
     align-items: center;
 }
-
 .mystery-card {
     text-align: center;
     font-weight: bold;
 }
-
 .mystery-card-image {
     padding: 10px;
     background-color: white;
     border-radius: 100%;
 }
-
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -53,23 +45,20 @@ img {
     font-weight: bold;
 }
 
-.card-background {
+.card {
     background-color: white;
     padding: 10px;
     border-radius: 6px;
     box-shadow: 0px 0px 10px #00000080;
     transition: 0.5s;
 }
-
-.card-background:hover {
+.card:hover {
     cursor: pointer;
     padding: 6px;
 }
-
 .eliminated {
     opacity: 20%;
 }
-
 .instructions {
     border-style: solid;
     border-width: 4px;
