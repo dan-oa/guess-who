@@ -70,7 +70,11 @@ function populateCards() {
     for (let i = 0; i < cards.length; i++) {
         let cardImg = cards[i].image
         let cardName = cards[i].name
-        cardsElement.innerHTML = cardsElement.innerHTML + "<div class='card' onclick='toggleEliminated(this)'><img src=" + cardImg + "><span>" + cardName + "</span></div>"
+        cardsElement.innerHTML = cardsElement.innerHTML
+            + "<div class='card' onclick='toggleEliminated(this)'>"
+                + "<img src=" + cardImg + ">"
+                + "<span>" + cardName + "</span>"
+            + "</div>"
     }
 }
 populateCards()
